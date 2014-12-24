@@ -1,0 +1,205 @@
+#dateSelectCurrent ul li {
+    float: left;
+    list-style: none;
+    border: 1px solid #e0e0e0;
+    width: 115px;
+    text-align: center;
+    height: 57px;
+    margin-left: -1px;
+}
+.prev {
+    margin-right: 20px;;
+}
+#dateSelect ul {
+    display: inline-block;
+    height: 59px;
+    position: relative;
+}
+#dateSelect ul:after {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+    content: "";
+}
+#dateSelect {
+    width: 930px;
+    overflow: hidden;
+    position: relative;
+    font-size: 0;
+    margin: 20px 0 0;
+    letter-spacing: -4px;
+}
+#dateSelect div {
+    display: inline-block;
+    *zoom:1;
+    *display:inline;
+    vertical-align: middle;
+    _vertical-align: top;
+    font-size: 12px;
+    letter-spacing: normal;
+    overflow: hidden;
+    height: 57px;
+}
+#dateSelect #dateSelectCurrent {
+    width: 812px;
+    overflow: hidden;
+    height: 59px;
+    margin-right: -1px;
+    position: relative;
+}
+#dateSelect #dateSelectCurrent .weekList {
+    width: 9999999px;
+    position: absolute;
+    white-space: nowrap;
+    height: 59px;
+}
+.controls {
+    width: 25px;
+    border: 1px solid #e0e0e0;
+}
+.controls a {
+    display: block;
+    width: 26px;
+    height: 57px;
+    text-indent: -9999px;
+}
+.controls .prev {
+    background: url("../images/prev-btn.png") no-repeat scroll 0 0 transparent;
+}
+.controls .prev:hover {
+    background-image: url("../images/prev-btn-hover.png");
+}
+.controls .next {
+    background: url("../images/next-btn.png") no-repeat scroll 0 0 transparent;
+}
+.controls .next:hover {
+    background-image: url("../images/next-btn-hover.png");
+}
+.weekList ul li a {
+    display: block;
+    height: 33px;
+    line-height: normal;
+    padding: 12px 0;
+    /*_padding: 13px 0 14px;*/
+}
+.weekList ul li .selected, .weekList ul li a:hover {
+    background: #f3f3f3;
+}
+.weekList ul li a .dateArea {
+    color: #333;
+}
+.weekList ul li a .dayArea {
+    color: #999;
+}
+.weekList ul li .selected .dateArea, .weekList ul li .selected .dayArea, .weekList ul li a:hover .dateArea, .weekList ul li a:hover .dayArea {
+    color: #000;
+}
+.openCalendar {
+    display: block;
+    text-align: center;
+    border: 1px solid #e0e0e0;
+    width: 64px;
+    height: 57px;
+    margin-left: -1px;
+}
+.openCalendar img {
+    cursor: pointer;
+}
+
+
+/*日历框 css*/
+.ui-datepicker .ui-datepicker-header {
+    padding: 0;
+    background: #ececec;
+    border: none;
+    height: 30px;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+.ui-datepicker-prev .ui-icon {
+    background: url("../images/prev-btn-s.png") no-repeat scroll 0 0 transparent;
+    width: 19px;
+    height: 30px;
+    margin: 0;
+}
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    margin: 0;
+    position: static;
+}
+.ui-datepicker-next .ui-icon {
+    background: url("../images/next-btn-s.png") no-repeat scroll 0 0 transparent;
+    width: 19px;
+    height: 30px;
+    margin: 0;
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+    background: none;
+    display: inline-block;
+    border: none;
+    width: auto;
+    height: auto;
+    top: 0;
+    cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-prev {
+    left: 0;
+}
+.ui-datepicker .ui-datepicker-next {
+    right: 0;
+}
+.ui-datepicker-prev:hover, .ui-datepicker-next:hover {
+    background: transparent;
+    border: none;
+    padding: 0;
+}
+.ui-datepicker-prev .ui-icon:hover, .ui-datepicker-next .ui-icon:hover {
+    background-position: 0 -34px;
+}
+.ui-datepicker .ui-datepicker-title {
+    line-height: 30px;
+    color: #333;
+}
+.ui-datepicker-week-end, .ui-datepicker-week-end a.ui-state-default {
+    color: #c20808;
+}
+.ui-datepicker td span, .ui-datepicker td a, .ui-widget-content .ui-state-default {
+    text-align: center;
+    color: #666;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: none;
+    padding: 0;
+}
+.ui-datepicker td {
+    padding: 0;
+    border: 1px solid #dadada;
+    background: #fff;
+    overflow: hidden;
+}
+.ui-datepicker {
+    width: auto;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    background: #fff;
+    padding: 0;
+    border: none;
+}
+.ui-datepicker-today .ui-state-highlight {
+    border-color: #dadada;
+}
+.ui-datepicker a.ui-state-active, .ui-datepicker a.ui-state-hover {
+    background: #c20808;
+    color: #fff;
+}
+.ui-state-disabled, .ui-widget-content .ui-state-disabled, .ui-widget-header .ui-state-disabled {
+    background: #fff;
+    opacity: 1;
+    filter:alpha(opacity=100);
+}
+#ui-datepicker-div {
+    *width: 357px;
+}

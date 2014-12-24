@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta  http-equiv ="Content-Type"  content ="text/html; charset=UTF-8">
+    <title> 周选择工具 </title>
+    <link type="text/css" media="all" rel="stylesheet" href="css/common.css"/>
+    <link rel="stylesheet" type="text/css" href="js/ui/jquery-ui.css" />
+    <link type="text/css" media="all" rel="stylesheet" href="css/week.css"/>
+    <script src="http://libs.baidu.com/jquery/1.7.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/ui/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="js/ui/jquery.ui.datepicker-zh-CN.js"></script>
+    <script type="text/javascript" src="js/week-slider.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div id="dateSelect">
+            <div class="controls">
+                <a href="javascript:;" class="prev" onclick="addWeek('-');">《</a>
+            </div>
+            <div id="dateSelectCurrent">
+                <input type="hidden" id="hiddenYear" value="0"/>
+                <input type="hidden" id="hiddenMonth" value="-1"/>
+                <input type="hidden" id="hiddenDate" value="0"/>
+                <div class="weekList" id="weekList">
+
+                </div>
+            </div>
+            <div class="controls">
+                <a href="javascript:;" class="next" onclick="addWeek('+');">》</a>
+            </div>
+            <div class="dateSelectIcon openCalendar">
+                选择日期<br />
+                <input type="hidden" id="openCalendarBtn"/>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

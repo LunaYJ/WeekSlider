@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+body{padding:0px;margin:0;line-height:24px;color:#333;font-size:12px;font-family:Arial,"宋体" ; background:#fff;}
+form,ul,ol,h1,h2,h3,h4,h5,h6,p,td,dd,dl,p,span,b,ul,li,input,img{margin:0;padding:0;list-style:none;}
+
+input,textarea,select,button{font-size:12px;vertical-align: middle;}
+img{border:none; vertical-align:top;}
+.clear{height:0;clear:both;overflow:hidden; }
+a{color:#333;text-decoration:none;}
+a:hover{text-decoration:none;color:#F00;}
+.nowarp{overflow:hidden; white-space:nowrap; text-overflow: ellipsis;}
+.freeze{ width:300px; height:150px; border-radius:15px; background:url(../../images/freeze.png) repeat; position:absolute; z-index:9;}
+.loading{ width:100%; height:100%; background:url(../../images/loading.gif) no-repeat center center;}
+.right{ text-align:right !important;}
+.left{ text-align:left !important;}
+.currentImportant{ color:Orange; font-size:12px;}
+#tmpContainter{ display: none;}
