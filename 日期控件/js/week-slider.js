@@ -1,3 +1,7 @@
+/**
+ * Created by Luna Shu.
+ * luna_yj@hotmail.com
+ */
 var curDate, curDay, curYear, curMonth, curFullDate, calendarAry,clickTimes;
 var dayArrya = new Array('日','一','二','三','四','五','六');
 $(function(){
